@@ -1,0 +1,81 @@
+/* .vendingMachineItem-tile {
+  background-color: white;
+  border: 2px solid #f994a6;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px #3fa6d6;
+  color: #f994a6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ */
+
+#pageHeader {
+    text-align: center;
+    font-weight: bold;
+    font-family: Courier New, Courier, monospace;
+}
+#vendingMachineItem {
+    background-color: white;
+    width: 17vw;
+    height: 17vw;
+    border: 4px solid black;
+    padding: 15px;
+    margin: 28px;
+}
+#name,
+#price,
+#quantity {
+    text-align: center;
+}
+#add-dollar-button, #add-quarter-button, #add-dime-button, #add-nickel-button{
+    margin: 5px;
+    width:100px;
+}
+#make-purchase-button,#change-return-button{
+    margin: 10px 0px;
+}
+
+#moneyIntake {
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border: 4px solid black;
+}
+#itemView {
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border: 4px solid black;
+}
+#changeView {
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border: 4px solid black;
+}
+#totalIn{
+    width: 212px;
+    height:35px;
+    margin:5px;
+}
+#moneyIn {
+    text-align: right;
+}
+#messages{
+    margin-bottom: 10px;
+}
+#itemId{
+    width: 75px;
+}
+#messageOutput {
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border: 4px solid black;
+}
+#floating {
+    display: initial;
+}
+h2 {
+    font-family: Courier New, Courier, monospace;
+}

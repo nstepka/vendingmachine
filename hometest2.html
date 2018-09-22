@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vending Machine</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendingMachineStyles.css" type="text/css">
+
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="pageHeader">
+                <h1>Stepkas Vending Machine</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-10">
+                <div id="vendingMachineItemsToList"></div>
+          </div>
+              <div class="col-md-2">
+                <form>
+
+                <h2>Total $ In</h2>
+                <input type="text" id="totalIn" disabled><br>
+
+                <button type="button" id="add-dollar-button" class="btn btn-default">
+                            Add Dollar
+                    </button>
+                <button type="button" id="add-quarter-button" class="btn btn-default">
+                            Add Quarter
+                    </button><br>
+                <button type="button" id="add-dime-button" class="btn btn-default">
+                            Add Dime
+                    </button>
+                <button type="button" id="add-nickel-button" class="btn btn-default">
+                            Add Nickel
+                    </button>
+            </form>
+
+                    <form>
+                        <h2>Messages</h2>
+                        <input type="text" id="messages" disabled><br>
+                        <div style="text-align: center; width:180px;"><h4 id="floating">Item:</h4>
+                        <input type="text" id="itemId"><br>
+                        <button type="button" id="make-purchase-button" class="btn btn-default">
+                            Make Purchase
+                    </button></div>
+                    </form>
+
+                    <form>
+                        <h2>Change</h2>
+                        <input type="text" id="change" disabled>
+                        <button type="button" id="change-return-button" class="btn btn-default">
+                            Change Return
+                    </button>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/hometest2.js"></script>
+</body>
+</html>
